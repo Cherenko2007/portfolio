@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Ульяна — Junior Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Ульяна</a>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <header id="home" class="hero">
+        <div class="container">
+            <h1>Привет, я <span class="highlight">Ульяна</span></h1>
+            <p class="subtitle">Junior Software Developer | C# • C++ • Java • Python</p>
+            <p class="description">
+                Программирую с 13 лет. Создаю десктопные приложения и веб-проекты от идеи до готового продукта.
+                Люблю, когда из «Hello World» постепенно рождается что-то настоящее и понятное.
+                Ищу удалённую работу, где смогу расти вместе с командой.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Смотреть проекты</a>
+                <a href="#contact" class="btn btn-secondary">Связаться</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Обо мне -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Я начинающий разработчик с опытом работы на C#, C++, Java и Python. 
+                        Учусь на заочном отделении по специальности «Информационные системы и программирование» 
+                        и параллельно развиваюсь через собственные проекты.
+                    </p>
+                    <p>
+                        Программирование — моё увлечение с 13 лет. Мне нравится писать код, который сначала 
+                        кажется хаосом, а потом складывается в работающий сайт или приложение. 
+                        Создавала проекты на заказ: например, интерактивную игру «Найди пару» с персональными 
+                        фразами в подарок на день рождения.
+                    </p>
+                    <p>
+                        Работаю в Visual Studio 2022, знаю .NET, WinForms, WPF, Entity Framework, 
+                        SQLite и SQL Server. Пишу чистый код и стремлюсь к понятной архитектуре.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Проектов</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Языка</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">7+</span>
+                        <span class="stat-label">Лет в коде</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Мои проекты</h2>
+            <div class="projects-grid">
+
+                <!-- Проект 1: Менеджер паролей -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <span class="project-icon">🔐</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Менеджер паролей</h3>
+                        <p>Десктопное приложение для безопасного хранения паролей с AES-256 шифрованием, поиском по записям и базой данных SQLite.</p>
+                        <div class="project-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">WPF</span>
+                            <span class="tag">SQLite</span>
+                            <span class="tag">AES</span>
+                        </div>
+                        <a href="https://github.com/Cherenko2007" target="_blank" class="project-link">GitHub →</a>
+                    </div>
+                </div>
+
+                <!-- Проект 2: CRM -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <span class="project-icon">🏪</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>CRM для магазина</h3>
+                        <p>Система управления клиентами и заказами. CRUD-операции, фильтрация данных, авторизация пользователей и отчёты.</p>
+                        <div class="project-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">WinForms</span>
+                            <span class="tag">Entity Framework</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                        <a href="https://github.com/Cherenko2007" target="_blank" class="project-link">GitHub →</a>
+                    </div>
+                </div>
+
+                <!-- Проект 3: Файловый проводник -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <span class="project-icon">📁</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Файловый проводник</h3>
+                        <p>Аналог Windows Explorer с деревом папок, просмотром файлов, контекстным меню и навигацией по дискам.</p>
+                        <div class="project-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">WinForms</span>
+                            <span class="tag">System.IO</span>
+                        </div>
+                        <a href="https://github.com/Cherenko2007" target="_blank" class="project-link">GitHub →</a>
+                    </div>
+                </div>
+
+                <!-- Проект 4: Музыкальный плеер -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <span class="project-icon">🎵</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Музыкальный плеер</h3>
+                        <p>Приложение для воспроизведения музыки с плейлистами, эквалайзером, обложками альбомов и управлением громкостью.</p>
+                        <div class="project-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">WPF</span>
+                            <span class="tag">NAudio</span>
+                        </div>
+                        <a href="https://github.com/Cherenko2007" target="_blank" class="project-link">GitHub →</a>
+                    </div>
+                </div>
+
+                <!-- Проект 5: Игра "Найди пару" -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <span class="project-icon">🎴</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Игра «Найди пару»</h3>
+                        <p>Интерактивная игра на заказ: нужно находить пары карточек с рисунками. При совпадении всплывают персональные милые фразы. Сделано в подарок на день рождения.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Cherenko2007" target="_blank" class="project-link">GitHub →</a>
+                    </div>
+                </div>
+
+                <!-- Проект 6: Сайт-портфолио -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                        <span class="project-icon">🌐</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Сайт-портфолио</h3>
+                        <p>Адаптивный лендинг с анимациями, плавной прокруткой и тёмной темой. Тот самый сайт, который вы сейчас видите.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Cherenko2007" target="_blank" class="project-link">GitHub →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Технический стек</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Языки программирования</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><div class="skill-bar" style="width: 85%"></div><span>C#</span></div>
+                        <div class="skill-item"><div class="skill-bar" style="width: 70%"></div><span>C++</span></div>
+                        <div class="skill-item"><div class="skill-bar" style="width: 65%"></div><span>Java</span></div>
+                        <div class="skill-item"><div class="skill-bar" style="width: 70%"></div><span>Python</span></div>
+                        <div class="skill-item"><div class="skill-bar" style="width: 75%"></div><span>SQL</span></div>
+                        <div class="skill-item"><div class="skill-bar" style="width: 80%"></div><span>HTML / CSS</span></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Технологии и инструменты</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">.NET</span>
+                        <span class="skill-tag">WinForms</span>
+                        <span class="skill-tag">WPF</span>
+                        <span class="skill-tag">Entity Framework</span>
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">SQL Server</span>
+                        <span class="skill-tag">LINQ</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Visual Studio 2022</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <p class="contact-text">Открыта к удалённой работе и интересным проектам</p>
+            <div class="contact-links">
+                <a href="mailto:ucerenko@gmail.com" class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <span>ucerenko@gmail.com</span>
+                </a>
+                <a href="https://github.com/Cherenko2007" target="_blank" class="contact-item">
+                    <span class="contact-icon">🐙</span>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://t.me/cherenk0" target="_blank" class="contact-item">
+                    <span class="contact-icon">✈️</span>
+                    <span>Telegram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <p>© 2026 Ульяна. Сделано с ❤️ на C# и не только</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
