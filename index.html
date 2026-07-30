@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -16,9 +16,13 @@
             <ul class="nav-links">
                 <li><a href="#home">Главная</a></li>
                 <li><a href="#about">Обо мне</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#pricing">Прайс</a></li>
+                <li><a href="#steps">Этапы</a></li>
                 <li><a href="#projects">Проекты</a></li>
                 <li><a href="#skills">Навыки</a></li>
                 <li><a href="#contact">Контакты</a></li>
+                <li class="lang-switch"><a href="en.html">EN</a></li>
             </ul>
             <div class="hamburger">
                 <span></span>
@@ -35,12 +39,12 @@
             <p class="subtitle">Junior Software Developer | C# • C++ • Java • Python</p>
             <p class="description">
                 Программирую с 13 лет. Создаю десктопные приложения и веб-проекты от идеи до готового продукта.
-                Люблю, когда из «Hello World» постепенно рождается что-то настоящее и понятное.
-                Ищу удалённую работу, где смогу расти вместе с командой.
+                Люблю, когда из «Hello World» постепенно рождается что-то настоящее.
+                Открыта к удалённой работе.
             </p>
             <div class="hero-buttons">
-                <a href="#projects" class="btn btn-primary">Смотреть проекты</a>
-                <a href="#contact" class="btn btn-secondary">Связаться</a>
+                <a href="#services" class="btn btn-primary">Заказать сайт</a>
+                <a href="#projects" class="btn btn-secondary">Смотреть проекты</a>
             </div>
         </div>
     </header>
@@ -85,20 +89,155 @@
         </div>
     </section>
 
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Услуги</h2>
+            <p class="section-subtitle">Разработка сайтов для малого бизнеса и частных специалистов</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💆</div>
+                    <h3>Салоны красоты и массажа</h3>
+                    <p>Лендинги с услугами, ценами, галереей работ и кнопками записи в WhatsApp / Telegram.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">☕</div>
+                    <h3>Кафе и рестораны</h3>
+                    <p>Сайты с меню, фотографиями блюд, контактами, картой проезда и отзывами.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✂️</div>
+                    <h3>Парикмахерские и барбершопы</h3>
+                    <p>Современные страницы с прайсом, мастерами, портфолио работ и онлайн-записью.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📸</div>
+                    <h3>Фотографы и видеографы</h3>
+                    <p>Портфолио с адаптивной галереей, категориями съёмок, контактами и соцсетями.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📚</div>
+                    <h3>Репетиторы и курсы</h3>
+                    <p>Сайты с расписанием, отзывами учеников, ценами и кнопкой связи.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛍️</div>
+                    <h3>Небольшие магазины</h3>
+                    <p>Каталог товаров с фото, описанием, ценами и контактами для заказа.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Прайс -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Прайс</h2>
+            <p class="section-subtitle">Честные цены без скрытых платежей</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Лендинг</h3>
+                    <div class="price">12 000 <span>₽</span></div>
+                    <ul>
+                        <li>Одностраничный сайт</li>
+                        <li>Индивидуальный дизайн</li>
+                        <li>Адаптация под телефон и ПК</li>
+                        <li>Контакты и кнопки мессенджеров</li>
+                        <li>Помощь с публикацией</li>
+                    </ul>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Сайт компании</h3>
+                    <div class="price">18 000 <span>₽</span></div>
+                    <ul>
+                        <li>4–8 страниц</li>
+                        <li>Главная, услуги, о компании, контакты</li>
+                        <li>Галерея фотографий</li>
+                        <li>Карта и отзывы</li>
+                        <li>Адаптивный дизайн</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Крупный проект</h3>
+                    <div class="price">от 25 000 <span>₽</span></div>
+                    <ul>
+                        <li>Индивидуальное ТЗ</li>
+                        <li>Сложная структура</li>
+                        <li>Расширенный функционал</li>
+                        <li>Приоритетная поддержка</li>
+                        <li>Обсуждается отдельно</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="pricing-note">
+                <strong>Что оплачивается отдельно:</strong> логотип (от 2 500 ₽), домен, хостинг, 
+                наполнение контентом после сдачи (от 500 ₽), добавление раздела (от 1 500 ₽).
+                <br><br>
+                <strong>Гарантия:</strong> после завершения бесплатно исправлю ошибки по моей вине. 
+                Доработки и новый функционал — отдельно по согласованию.
+            </p>
+        </div>
+    </section>
+
+    <!-- Этапы работы -->
+    <section id="steps" class="steps">
+        <div class="container">
+            <h2 class="section-title">Как проходит работа</h2>
+            <p class="section-subtitle">От идеи до готового сайта — 7 простых шагов</p>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Обсуждение</h3>
+                    <p>Вы рассказываете о желаемом сайте, я задаю уточняющие вопросы и предлагаю варианты.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Материалы</h3>
+                    <p>Вы присылаете фото, тексты, логотип, контакты, цены и отзывы.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Разработка</h3>
+                    <p>Я создаю сайт, учитывая все пожелания и современные тренды дизайна.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Предпросмотр</h3>
+                    <p>Показываю предварительную версию. Вы смотрите и пишете замечания.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">5</div>
+                    <h3>Правки</h3>
+                    <p>Вношу изменения по вашим комментариям. Количество правок — неограниченно в рамках ТЗ.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">6</div>
+                    <h3>Утверждение</h3>
+                    <p>Вы подтверждаете финальную версию. Оплата второй части (если была предоплата).</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">7</div>
+                    <h3>Публикация</h3>
+                    <p>Сайт выкладываю на хостинг. Вы получаете готовый проект и инструкции по управлению.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Проекты -->
     <section id="projects" class="projects">
         <div class="container">
             <h2 class="section-title">Мои проекты</h2>
             <div class="projects-grid">
 
-                <!-- Проект 1: Менеджер паролей -->
+                <!-- Проект 1 -->
                 <div class="project-card">
                     <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
                         <span class="project-icon">🔐</span>
                     </div>
                     <div class="project-info">
                         <h3>Менеджер паролей</h3>
-                        <p>Десктопное приложение для безопасного хранения паролей с AES-256 шифрованием, поиском по записям и базой данных SQLite.</p>
+                        <p>Десктопное приложение для безопасного хранения паролей с AES-256 шифрованием, поиском и базой данных SQLite.</p>
                         <div class="project-tags">
                             <span class="tag">C#</span>
                             <span class="tag">WPF</span>
@@ -109,14 +248,14 @@
                     </div>
                 </div>
 
-                <!-- Проект 2: CRM -->
+                <!-- Проект 2 -->
                 <div class="project-card">
                     <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
                         <span class="project-icon">🏪</span>
                     </div>
                     <div class="project-info">
                         <h3>CRM для магазина</h3>
-                        <p>Система управления клиентами и заказами. CRUD-операции, фильтрация данных, авторизация пользователей и отчёты.</p>
+                        <p>Система управления клиентами и заказами. CRUD-операции, фильтрация, авторизация пользователей и отчёты.</p>
                         <div class="project-tags">
                             <span class="tag">C#</span>
                             <span class="tag">WinForms</span>
@@ -127,24 +266,24 @@
                     </div>
                 </div>
 
-                <!-- Проект 3: Файловый проводник -->
+                <!-- Проект 3 -->
                 <div class="project-card">
                     <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
                         <span class="project-icon">📁</span>
                     </div>
                     <div class="project-info">
                         <h3>Файловый проводник</h3>
-                        <p>Аналог Windows Explorer с деревом папок, просмотром файлов, контекстным меню и навигацией по дискам.</p>
+                        <p>Аналог Windows Explorer с деревом папок, просмотром файлов, контекстным меню и навигацией.</p>
                         <div class="project-tags">
                             <span class="tag">C#</span>
                             <span class="tag">WinForms</span>
                             <span class="tag">System.IO</span>
                         </div>
-                        <a href="https://github.com/Cherenko2007" target="_blank" class="project-link">GitHub →</a>
+                        <a href="https://github.com/Cherenko2007/FileExplorer" target="_blank" class="project-link">GitHub →</a>
                     </div>
                 </div>
 
-                <!-- Проект 4: Музыкальный плеер -->
+                <!-- Проект 4 -->
                 <div class="project-card">
                     <div class="project-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
                         <span class="project-icon">🎵</span>
@@ -154,14 +293,14 @@
                         <p>Приложение для воспроизведения музыки с плейлистами, эквалайзером, обложками альбомов и управлением громкостью.</p>
                         <div class="project-tags">
                             <span class="tag">C#</span>
-                            <span class="tag">WPF</span>
+                            <span class="tag">WinForms</span>
                             <span class="tag">NAudio</span>
                         </div>
-                        <a href="https://github.com/Cherenko2007" target="_blank" class="project-link">GitHub →</a>
+                        <a href="https://github.com/Cherenko2007/MusicPlayer" target="_blank" class="project-link">GitHub →</a>
                     </div>
                 </div>
 
-                <!-- Проект 5: Игра "Найди пару" -->
+                <!-- Проект 5 -->
                 <div class="project-card">
                     <div class="project-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
                         <span class="project-icon">🎴</span>
@@ -174,11 +313,11 @@
                             <span class="tag">CSS</span>
                             <span class="tag">JavaScript</span>
                         </div>
-                        <a href="https://github.com/Cherenko2007" target="_blank" class="project-link">GitHub →</a>
+                        <a href="https://github.com/Cherenko2007/Love" target="_blank" class="project-link">GitHub →</a>
                     </div>
                 </div>
 
-                <!-- Проект 6: Сайт-портфолио -->
+                <!-- Проект 6 -->
                 <div class="project-card">
                     <div class="project-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
                         <span class="project-icon">🌐</span>
@@ -191,7 +330,7 @@
                             <span class="tag">CSS3</span>
                             <span class="tag">JavaScript</span>
                         </div>
-                        <a href="https://github.com/Cherenko2007" target="_blank" class="project-link">GitHub →</a>
+                        <a href="https://github.com/Cherenko2007/portfolio" target="_blank" class="project-link">GitHub →</a>
                     </div>
                 </div>
 
