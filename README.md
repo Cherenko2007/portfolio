@@ -1,39 +1,47 @@
-# Personal Portfolio
+# 🌐 Портфолио / Portfolio
 
-A personal portfolio website showcasing my skills, projects, and experience as a Junior Software Developer.
+Мой личный сайт-портфолио. Две языковые версии: 🇷🇺 русская и 🇬🇧 английская.
 
-## Live Demo
+**My personal portfolio website. Two language versions: 🇷🇺 Russian and 🇬🇧 English.**
 
-https://cherenko2007.github.io/portfolio/
+---
 
-## Features
+## 🔗 Ссылки / Links
 
-- Responsive design
-- Clean and modern interface
-- About Me section
-- Skills section
-- Projects showcase
-- Contact information
-- Smooth navigation
+- 🇷🇺 Русская версия: [cherenko2007.github.io/portfolio/](https://cherenko2007.github.io/portfolio/)
+- 🇬🇧 English version: [cherenko2007.github.io/portfolio/en.html](https://cherenko2007.github.io/portfolio/en.html)
 
-## Technologies
+---
 
-- HTML5
-- CSS3
-- JavaScript
+## ✨ Что на сайте / What's inside
 
-## Purpose
+| Раздел / Section | Описание / Description |
+|-------------------|------------------------|
+| **Главная / Home** | Приветствие, кто я и чем занимаюсь |
+| **Обо мне / About** | Биография, опыт, статистика |
+| **Услуги / Services** | Разработка сайтов для малого бизнеса |
+| **Прайс / Pricing** | Лендинг, сайт компании, крупный проект |
+| **Этапы работы / Process** | 7 шагов от идеи до готового сайта |
+| **Проекты / Projects** | 6 проектов на C#, WinForms, WPF, HTML/CSS/JS |
+| **Навыки / Skills** | Технический стек и уровень владения |
+| **Контакты / Contact** | Email, GitHub, Telegram |
 
-This project was created as my personal portfolio to present my programming skills and completed projects. It serves as a central place where recruiters and clients can learn more about my work and technical background.
+---
 
-## Future Improvements
+## 🛠️ Технологии / Technologies
 
-- Add dark mode
-- Improve animations
-- Add multilingual support
-- Expand project gallery
-- Add certificates and achievements
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## Author
+---
 
-Ulyana 
+## 📫 Связь / Contact
+
+- 📧 Email: [ucerenko@gmail.com](mailto:ucerenko@gmail.com)
+- 💬 Telegram: [@cherenk0](https://t.me/cherenk0)
+- 🐙 GitHub: [Cherenko2007](https://github.com/Cherenko2007)
+
+---
+
+&lt;p align="center"&gt;&lt;i&gt;✨ «Из "Hello World" рождается что-то настоящее» / "From 'Hello World' to something real" ✨&lt;/i&gt;&lt;/p&gt;
